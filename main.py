@@ -1,17 +1,18 @@
+"""
+==============================================================================
+Module Name:   main.py
+Description:   Source module main.py.
+Author:        Mai Tan Duc <ducmai.network@gmail.com>
+Created:       2026-10-10
+Version:       1.0.0
+License:       MIT
+==============================================================================
+Usage:         python3 main.py [options]
+Notes:         Requires Python 3.8+
+==============================================================================
+"""
+
 #!/usr/bin/python3
-
-#
-# File:         main.py
-# Author:       Tan Mai Tan Duc
-# Email:        tan.duc.work@gmail.com
-# Date:         22-Jul-21
-# Description:  Use Turtle graphics to illustrate the city life.
-#   I hereby declare that I completed this work without any improper help
-#   from a third party and without using any aids other than those cited.
-#
-
-
-# ------------------------------- Module Imports ------------------------------
 import turtle
 
 from drawing_functions import *
