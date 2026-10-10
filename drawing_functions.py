@@ -18,7 +18,7 @@ import turtle
 
 # ---------------------------- Function Definitions ---------------------------
 def set_turtle(animal, pencolour, fillcolour, pensize):
-    animal.shape('turtle')
+    animal.shape("turtle")
     animal.color(pencolour, fillcolour)
     animal.pensize(pensize)
     animal.speed(0)

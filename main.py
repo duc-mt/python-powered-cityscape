@@ -20,14 +20,14 @@ from drawing_functions import *
 def main():
     # Set the window
     screen = turtle.Screen()
-    screen.bgcolor('#00002E')
-    screen.bgpic('assets/background.gif')
-    screen.title('Henry\'s Turtle')
+    screen.bgcolor("#00002E")
+    screen.bgpic("assets/background.gif")
+    screen.title("Henry's Turtle")
     turtle.setup(width=750, height=750)
 
     # house
     house = turtle.Turtle()
-    set_turtle(house, '#ebbc48', '#ebbc48', 2)
+    set_turtle(house, "#ebbc48", "#ebbc48", 2)
     move_turtle(house, -350, -200)
     house.begin_fill()
     house.fd(400)
@@ -50,7 +50,7 @@ def main():
 
     # roof_set_up
     roof = turtle.Turtle()
-    set_turtle(roof, '#ff6c22', '#ff6c22', 2)
+    set_turtle(roof, "#ff6c22", "#ff6c22", 2)
 
     # left_roof
     move_turtle(roof, -370, -50)
@@ -96,7 +96,7 @@ def main():
 
     # door
     door = turtle.Turtle()
-    set_turtle(door, '#624A3A', '#A18265', 5)
+    set_turtle(door, "#624A3A", "#A18265", 5)
     move_turtle(door, -150, -200)
     door.begin_fill()
     door.lt(180)
@@ -114,7 +114,7 @@ def main():
     # door_handle
     move_turtle(door, -125, -145)
     door.begin_fill()
-    door.fillcolor('#624A3A')
+    door.fillcolor("#624A3A")
     door.fd(5)
     door.lt(-90)
     door.fd(10)
@@ -132,7 +132,7 @@ def main():
 
     # window
     window = turtle.Turtle()
-    set_turtle(window, '#624A3A', '#5ca4cc', 2)
+    set_turtle(window, "#624A3A", "#5ca4cc", 2)
 
     # Call the function to draw the windows
     window_position = (
@@ -168,7 +168,7 @@ def main():
 
     # chimney
     chimney = turtle.Turtle()
-    set_turtle(chimney, '#f36e28', '#f36e28', 2)
+    set_turtle(chimney, "#f36e28", "#f36e28", 2)
     move_turtle(chimney, -230, 150)
     chimney.begin_fill()
     chimney.lt(90)
@@ -182,7 +182,7 @@ def main():
     chimney.end_fill()
     chimney.hideturtle()
 
-    chimney.fillcolor('#bc4132')
+    chimney.fillcolor("#bc4132")
     chimney.lt(-90)
     chimney.fd(60)
     chimney.showturtle()
@@ -199,7 +199,7 @@ def main():
 
     # street
     street = turtle.Turtle()
-    set_turtle(street, '#4b4c4e', '#4b4c4e', 0)
+    set_turtle(street, "#4b4c4e", "#4b4c4e", 0)
     move_turtle(street, -380, -280)
     street.begin_fill()
     street.fd(760)
@@ -211,7 +211,7 @@ def main():
     street.fd(90)
     street.end_fill()
 
-    set_turtle(street, 'dark gray', 'dark gray', 0)
+    set_turtle(street, "dark gray", "dark gray", 0)
     street.begin_fill()
     street.fd(10)
     street.lt(-90)
@@ -225,7 +225,7 @@ def main():
 
     # roadside
     roadside = turtle.Turtle()
-    set_turtle(roadside, '#92d476', '#92d476', 0)
+    set_turtle(roadside, "#92d476", "#92d476", 0)
     move_turtle(roadside, -380, -201)
     roadside.begin_fill()
     roadside.fd(760)
@@ -240,7 +240,7 @@ def main():
 
     # broken_line
     line = turtle.Turtle()
-    set_turtle(line, 'dark gray', 'dark gray', 4)
+    set_turtle(line, "dark gray", "dark gray", 4)
     i = -350
     while i <= 250:
         move_turtle(line, i, -350)
@@ -250,7 +250,7 @@ def main():
 
     # little_stair
     stair = turtle.Turtle()
-    set_turtle(stair, '#e4d3c5', '#e4d3c5', 0)
+    set_turtle(stair, "#e4d3c5", "#e4d3c5", 0)
     move_turtle(stair, -150, -195)
     stair.begin_fill()
     stair.bk(50)
@@ -267,20 +267,20 @@ def main():
 
     # oval_tree_set_up
     oval1 = turtle.Turtle()
-    set_turtle(oval1, '#3a831e', '#3a831e', 0)
-    oval1.shape('circle')
+    set_turtle(oval1, "#3a831e", "#3a831e", 0)
+    oval1.shape("circle")
 
     oval2 = turtle.Turtle()
-    set_turtle(oval2, '#3a831e', '#3a831e', 0)
-    oval2.shape('circle')
+    set_turtle(oval2, "#3a831e", "#3a831e", 0)
+    oval2.shape("circle")
 
     oval3 = turtle.Turtle()
-    set_turtle(oval3, '#3a831e', '#3a831e', 0)
-    oval3.shape('circle')
+    set_turtle(oval3, "#3a831e", "#3a831e", 0)
+    oval3.shape("circle")
 
     oval4 = turtle.Turtle()
-    set_turtle(oval4, '#3a831e', '#3a831e', 0)
-    oval4.shape('circle')
+    set_turtle(oval4, "#3a831e", "#3a831e", 0)
+    oval4.shape("circle")
 
     # draw_oval_tree
     move_turtle(oval1, -320, -215)
@@ -297,7 +297,7 @@ def main():
 
     # big_tree
     tree = turtle.Turtle()
-    set_turtle(tree, '#624A3A', '#624A3A', 0)
+    set_turtle(tree, "#624A3A", "#624A3A", 0)
     move_turtle(tree, 105, -260)
     tree.begin_fill()
     tree.fd(20)
@@ -312,7 +312,7 @@ def main():
 
     # leaf
     leaf = turtle.Turtle()
-    set_turtle(leaf, '#3a831e', '#3a831e', 0)
+    set_turtle(leaf, "#3a831e", "#3a831e", 0)
     move_turtle(leaf, 75, -250)
     leaf.begin_fill()
     leaf.lt(60)
@@ -342,7 +342,7 @@ def main():
 
     # lower_car_body
     car = turtle.Turtle()
-    set_turtle(car, '#f94342', '#f94342', 2)
+    set_turtle(car, "#f94342", "#f94342", 2)
     move_turtle(car, -230, -330)
     car.begin_fill()
     car.fd(160)
@@ -357,7 +357,7 @@ def main():
     # upper_car_body
 
     # car_glass
-    set_turtle(car, '#7bdff6', '#7bdff6', 2)
+    set_turtle(car, "#7bdff6", "#7bdff6", 2)
     move_turtle(car, -200, -290)
     car.begin_fill()
     car.lt(150)
@@ -371,7 +371,7 @@ def main():
     car.end_fill()
 
     # outside_glass
-    set_turtle(car, '#f94342', '#f94342', 5)
+    set_turtle(car, "#f94342", "#f94342", 5)
     move_turtle(car, -200, -290)
     car.begin_fill()
     car.lt(-120)
@@ -388,7 +388,7 @@ def main():
 
     # wheels
     wheel = turtle.Turtle()
-    set_turtle(wheel, 'black', '#ebbc48', 4)
+    set_turtle(wheel, "black", "#ebbc48", 4)
 
     # Call the function to draw the wheels
     draw_wheel(wheel, -200, -340)
@@ -397,12 +397,12 @@ def main():
 
     # flag
     flag = turtle.Turtle()
-    set_turtle(flag, '#624A3A', '#624A3A', 7)
+    set_turtle(flag, "#624A3A", "#624A3A", 7)
     move_turtle(flag, 195, -257)
     flag.lt(90)
     flag.fd(350)
 
-    set_turtle(flag, '#DA251D', '#DA251D', 7)
+    set_turtle(flag, "#DA251D", "#DA251D", 7)
     flag.begin_fill()
     flag.lt(-90)
     flag.fd(120)
@@ -415,12 +415,12 @@ def main():
 
     # star
     star = turtle.Turtle()
-    set_turtle(star, '#FFCD00', '#FFCD00', 2)
+    set_turtle(star, "#FFCD00", "#FFCD00", 2)
     draw_star(star, 230, 63)
 
     # dog_face
     dog = turtle.Turtle()
-    set_turtle(dog, '#93a2a9', '#93a2a9', 2)
+    set_turtle(dog, "#93a2a9", "#93a2a9", 2)
     move_turtle(dog, 235, -235)
     dog.begin_fill()
     dog.circle(18)
@@ -429,7 +429,7 @@ def main():
 
     # eyes
     eye = turtle.Turtle()
-    set_turtle(eye, 'black', 'black', 2)
+    set_turtle(eye, "black", "black", 2)
 
     # Call the function to draw the eyes
     eye_position = (
@@ -442,33 +442,33 @@ def main():
 
     # mouth
     mouth = turtle.Turtle()
-    set_turtle(mouth, 'black', 'black', 2)
+    set_turtle(mouth, "black", "black", 2)
     move_turtle(mouth, 235, -227)
     mouth.circle(3, 160)
     mouth.hideturtle()
 
     # left_ear
     l_ear = turtle.Turtle()
-    set_turtle(l_ear, '#93a2a9', '#93a2a9', 0)
-    l_ear.shape('circle')
+    set_turtle(l_ear, "#93a2a9", "#93a2a9", 0)
+    l_ear.shape("circle")
     move_turtle(l_ear, 220, -202)
 
     # right_ear
     r_ear = turtle.Turtle()
-    set_turtle(r_ear, '#93a2a9', '#93a2a9', 0)
-    r_ear.shape('circle')
+    set_turtle(r_ear, "#93a2a9", "#93a2a9", 0)
+    r_ear.shape("circle")
     move_turtle(r_ear, 252, -202)
 
     # body
     body = turtle.Turtle()
-    set_turtle(body, '#93a2a9', '#93a2a9', 0)
-    body.shape('circle')
+    set_turtle(body, "#93a2a9", "#93a2a9", 0)
+    body.shape("circle")
     move_turtle(body, 255, -239)
     body.shapesize(1, 3)
 
     # legs
     leg = turtle.Turtle()
-    set_turtle(leg, 'black', 'black', 2)
+    set_turtle(leg, "black", "black", 2)
 
     # Call the function to draw the legs
     leg_position = (
@@ -483,7 +483,7 @@ def main():
 
     # tail_set_up
     tail = turtle.Turtle()
-    set_turtle(tail, '#93a2a9', '#93a2a9', 4)
+    set_turtle(tail, "#93a2a9", "#93a2a9", 4)
     move_turtle(tail, 276, -242)
     tail.begin_fill()
     tail.lt(40)
@@ -498,5 +498,5 @@ def main():
 
 
 # --------------------------- Call the Main Function --------------------------
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
