@@ -2,7 +2,7 @@
 
 #
 # File:         drawing_functions.py
-# Author:       Tan Duc Mai
+# Author:       Tan Mai Tan Duc
 # Email:        tan.duc.work@gmail.com
 # Date:         22-Jul-21
 # Description:  A list of user-defined functions that assist in drawing
